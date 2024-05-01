@@ -7,14 +7,14 @@ var
 
 begin
     clrscr;
+        tahunSekarang := 2024;
+        usia := tahunSekarang - tahunLahir;
     write('Masukan nama anda: ');
     readln(nama);
     write('Masukan tinggi badan: ');
     readln(tinggiBadan);
     write('Masukan tahun lahir anda: ');
-    readln(tahunLahir);
-        tahunSekarang := 2024;
-        usia := tahunSekarang - tahunLahir; 
+    readln(tahunLahir); 
     write(nama, ' usia anda adalah ', usia , ' tahun. ');
     if usia < 17 then 
         write('Maaf anda tidak boleh masuk bioskop')
